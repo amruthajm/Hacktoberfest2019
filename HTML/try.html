@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>Product Builder Page </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#main{
+height:3cm;
+background:rgb(222,232,222);
+}
+#header{
+
+width:100%;
+
+position: fixed;
+}
+
+#header-img{
+height:80px;
+width:80px;
+border-radius:50%;
+padding:10px;
+margin:10px;
+float:left;
+}
+
+
+#p1{
+width:25%;
+ line-height:70px;
+ float: left;
+}
+
+#p1 h3{
+padding-left:80px;
+font-weight: bold;
+color: white;
+font-family: sans-serif;
+ }
+
+#nav-bar{
+width:75%;
+height:11px;
+float: right;
+}
+
+
+
+#nav-bar ul{
+margin-left:300px;}
+
+
+#nav-bar ul li{
+font-family: sans-serif;
+display: inline-block;
+list-style: none;
+font-size: 15px;
+color: white;
+font-weight: bold;
+line-height:80px;
+margin-left:40px;
+
+}
+
+#nav-bar ul li  a:link{
+color: white;
+text-decoration: none;
+
+}
+
+#nav-bar ul li a:visited{
+color: white;
+}
+
+#nav-bar ul li a:hover{
+color:#ffa550;
+}
+
+@media screen and (max-width: 600px) {
+  #nav-bar a {
+    float: right;
+    width: 100%;
+font-size:0.3cm;
+color:black;
+margin:0;
+  }
+}
+#a{
+height:15cm;
+background:#b3ffcb;
+margin:0.25cm;
+text-align:center;
+font-size:25px;
+color:grey;
+}
+#a p{
+padding:0.75cm;
+}
+
+
+#b{
+height:15cm;
+background:black;
+color:red;
+margin:0.25cm;
+}
+#c{
+height:15cm;
+margin:0.25cm;
+background:rgb(204, 265, 245);
+display:flex;
+}
+
+#photo{
+height:9cm;
+width:6cm;
+margin:1cm;
+padding-left:3cm;
+padding-top:2cm;
+border-radius:25px;
+}
+#d{
+height:15cm;
+margin:0.25cm;
+background:#c2d6d6;
+}
+
+#d h2,h3{
+line-height:1cm;
+padding:1cm;
+color:white;
+}
+#email{
+height:1.5cm;
+width:40%;
+margin:1cm;
+}
+#submit{
+height:1.5cm;
+width:3cm;
+margin:1cm;
+}
+</style>
+<body>
+<div id="main">
+<header id="header">
+<div id="p1"><img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png">
+<h3>Brilliant</h3>
+</div>
+
+<nav id="nav-bar">
+
+
+<ul>
+<li><a href="#a" class="nav-link">About Us</a></li>
+<li><a href="#b" class="nav-link">Why Books?</a></li>
+<li><a href="#c" class="nav-link">Books Available</a></li>
+<li><a href="#d" class="nav-link">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+</div>
+<div id="a">
+<h1>About Us</h3>
+<p>
+Books play a significant role in our life. They say that "When you open a book, you open a new world".
+ I believe that everyone would agree with this statement as books have become inevitable to mankind. 
+For the majority of people, books are part of their everyday life.  
+A book is like a best friend who will never walk away from you.
+</p>
+
+<p>
+Books are packed with knowledge, insights into a happy life, life lessons, love, fear, prayer and helpful advice. 
+One can read about anything under the sun. 
+Books have been here for centuries and without them today’s knowledge of our past ancestors, cultures and civilizations would have been impossible.
+ Have you ever thought what would have happened if intellectuals never documented their studies?
+</p>
+
+<p>
+So here we are to give you that insight by selling our books to change your lives:)
+</p>
+
+</div>
+<div id="b">
+<center>
+<object  width="850" height="567"
+data="https://www.youtube.com/v/SKVcQnyEIT8">
+</object>
+</center></div>
+<div id="c">
+<div id="c1">
+<img id="photo" src="C:\Users\Jagdish\Pictures\product\ph1.jfif">
+</div>
+<div id="c1">
+<img id="photo" src="C:\Users\Jagdish\Pictures\product\ph2.jfif">
+</div>
+<div id="c1">
+<img id="photo" src="C:\Users\Jagdish\Pictures\product\ph3.jfif">
+</div>
+</div>
+<div id="d">
+<center>
+<h2>Its now time to grab some books</h2>
+<h3>Feel free to register and buy new books</h3>
+<form id="form"  action="https://www.freecodecamp.com/email-submit">
+<input id="email" placeholder ="E-mail" type="Email" required>
+<input id="submit" type="submit" name="Submit" value="Submit">
+</form>
+</center>
+</div>
+</body>
+</head>
+</html>
